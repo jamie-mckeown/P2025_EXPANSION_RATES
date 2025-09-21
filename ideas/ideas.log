@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2024.7.12)  21 SEP 2025 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2024.7.12)  21 SEP 2025 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/jamiemckeown/Desktop/P2025_EXPANSION_RATES/main.tex
-(/Users/jamiemckeown/Desktop/P2025_EXPANSION_RATES/main.tex
+**/Users/jamiemckeown/Desktop/P2025_EXPANSION_RATES/ideas/ideas.tex
+(/Users/jamiemckeown/Desktop/P2025_EXPANSION_RATES/ideas/ideas.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscls/amsart.cls
@@ -1130,78 +1130,78 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \c@example=\count387
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (main.aux)
-\openout1 = `main.aux'.
+ (ideas.aux)
+\openout1 = `ideas.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 141.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 141.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 142.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Trying to load font information for OT1+zavm on input line 141.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Trying to load font information for OT1+zavm on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arev/ot1zavm.fd
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
 )
-LaTeX Font Info:    Trying to load font information for OML+zavm on input line 141.
+LaTeX Font Info:    Trying to load font information for OML+zavm on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arev/omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 141.
+LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 141.
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 141.
+(Font)              scaled to size 7.68005pt on input line 142.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 141.
+(Font)              scaled to size 5.76004pt on input line 142.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 141.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 141.
+(Font)              scaled to size 4.80003pt on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 141.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 141.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 141.
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 141.
+(Font)              scaled to size 7.68005pt on input line 142.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 141.
+(Font)              scaled to size 5.76004pt on input line 142.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 141.
-LaTeX Font Info:    Trying to load font information for U+zavm on input line 141.
+(Font)              scaled to size 4.80003pt on input line 142.
+LaTeX Font Info:    Trying to load font information for U+zavm on input line 142.
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 )
@@ -1271,10 +1271,10 @@ Package caption Info: Fixing longtable code of `floatrow' package.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 141.
- (main.out) (main.out)
+Package hyperref Info: Link coloring ON on input line 142.
+ (ideas.out) (ideas.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `ideas.out'.
 
  (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -1289,52 +1289,63 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 )
 
 LaTeX Font Warning: Font shape `T1/fav/m/sc' undefined
-(Font)              using `T1/fav/m/n' instead on input line 153.
+(Font)              using `T1/fav/m/n' instead on input line 154.
 
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 153.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 154.
 (/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 172.
+(Font)              scaled to size 10.51207pt on input line 174.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 172.
+(Font)              scaled to size 10.51207pt on input line 174.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 176.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 176.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 8.64006pt on input line 176.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 176.
 
-Overfull \hbox (1.97641pt too wide) in paragraph at lines 172--172
-|[][][][][][] [][] 
+
+[1{/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
+
+Package natbib Warning: Citation `preuss_evaluating_2014' on page 2 undefined on input line 216.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
  []
 
 
-Overfull \hbox (1.97641pt too wide) in paragraph at lines 176--176
-|[][][][][][] [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
  []
 
 
-Overfull \hbox (1.97641pt too wide) in paragraph at lines 185--185
-|[][][][][][] [][] 
- []
 
-(main.bbl
+[2]
 
-Package natbib Warning: Empty `thebibliography' environment on input line 46.
+Package natbib Warning: There were undefined citations.
 
-)
 
-[1{/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] (main.aux)
+
+[3] (ideas.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1343,21 +1354,21 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3B7D12B4BF01C70EF27092DC2B7030F7;350.
+Package rerunfilecheck Info: File `ideas.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33591 strings out of 473904
- 649722 string characters out of 5723730
- 1937905 words of memory out of 5000000
- 55646 multiletter control sequences out of 15000+600000
- 594819 words of font info for 92 fonts, out of 8000000 for 9000
+ 33595 strings out of 473904
+ 649856 string characters out of 5723730
+ 1943905 words of memory out of 5000000
+ 55621 multiletter control sequences out of 15000+600000
+ 609333 words of font info for 127 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 94i,5n,93p,1162b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/arev/ArevSans-Bold.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/arev/ArevSans-Oblique.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/arev/ArevSans-Roman.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/bera/fvmr8a.pfb>
-Output written on main.pdf (1 page, 48783 bytes).
+ 94i,6n,93p,1560b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/arev/arevoms.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/arev/arevot1.enc}{/Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/arev/arevoml.enc}</Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/arev/ArevSans-Bold.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/arev/ArevSans-Oblique.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/arev/ArevSans-Roman.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/bera/fvmr8a.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/mathdesign/mdbch/md-chb7t.pfb></Users/jamiemckeown/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/mathdesign/mdbch/md-chb7y.pfb>
+Output written on ideas.pdf (3 pages, 75104 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

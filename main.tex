@@ -138,7 +138,6 @@
 
 \newcommand\pmeq{\stackrel{\mathclap{\mbox{$\pm$}}}{=}}
 
-
 \begin{document}
 %%%%%
 %	TITLE
@@ -153,76 +152,50 @@
 \maketitle 
 
 \begin{abstract}
- \centering \bigskip
-  \begin{minipage}{\dimexpr\paperwidth-10cm}
- 	\draft{\lipsum[1]}  \\
-	
- 	\bigskip
- 	\noindent\textbf{Keywords:} \draft{Key words}\\
-	
- 	\bigskip
- 	\noindent\textbf{MSC Classification:} \draft{Classification} \\	
- \end{minipage} 
- \end{abstract} 
+\centering \bigskip
+\begin{minipage}{\dimexpr\paperwidth-10cm}
+\draft{\lipsum[1]}  \\
 
+\bigskip
+\noindent\textbf{Keywords:} \draft{Key words}\\
 
-
+\bigskip
+\noindent\textbf{MSC Classification:} \draft{Classification} \\	
+\end{minipage} 
+\end{abstract} 
 
 %%%%%
 %	CONTENT
 %%%%%
-\section*{Some ideas}
 
-	\subsection*{Misc notes} 
-	We can consider the following:
-                \begin{itemize}
-                    \item Two models: M1 constant-coefficient model. 
-                    \item Inference for "both" models - summarise paper 1 results for homogeneous model. / or maybe just pick some parameters and leave inference for follow up paper?
-		              \begin{itemize}
-		                  \item Compare models using the DIC 
-		              \end{itemize}
-		              \begin{itemize}
-		                  \item Posterior predictives for both? Using half the number of test sites (4 each - 2023, 2019, 2015, 2010)
-		              \end{itemize}
-                    \item Approaches for calculating the speed of propagation:
-                        \begin{enumerate}
-                            \item Convex hull decomposition and geodesic distance (heat method): using supremum/maximum of distance to hull vertices.
-                            \item Tanh fit and midpoint trajectory: again, using maximum 
-                            % \item Also compare average distance to get speed.
-                            \item 8-point compass of speeds: using maximum along given directions (for convex hull, use $\frac{\pi}{8}$ radian arcs, for tanh fit, use the specific cross sections $(y=0)^+, (y=0)^-, (x=0)^+, (x=0)^-, (y=x)^+, (y=x)^-, (y=-x)^+, (y=-x)^-$ )
-                            \item For each of these two approaches, we will measure distance from two sources: a single point source (the centre of the initial state) and from the (edge of the) initial territory we obtain from our circle fit. For CH/GD, this defines a (generalized) Dirac function that's fed directly into the heat method. For tanh fit, single point - measure distance from that point; initial state - measure distance from centre and subtract radius of circle.
-                        \end{enumerate}
-                \end{itemize}
-	
+%%%
+\section{Introduction}\label{sec:introduction}
+%%%
+
+%%%
+\section{Materials and Methods}\label{sec:methods}
+%%%
 	
 
-	\subsection*{Methods for determing the position of the front}
-	\begin{enumerate}
-		\item Convex hull. 	
-		\item Tanh fit along one-dimensional cross sections
-		\item Circle fit (a la Suprunenko)
+	
 
-	\end{enumerate}
 
-	\subsection*{Methods for determing rate of expansion/propagation}
-	\begin{enumerate}
-		\item Geodesic distances via the heat method  / linear rate of spread a la Mineur et al 2010
-		\item Measuring distance traversed by midpoint of the tanh fit? / linear rate of spread a la mineur et al 2010
-		\item Maximum distance method (and potentially others quoted in Suprunenko et al 2021 / Preuss et al 2014
-		\item 95th gamma quantile (Preuss et al 2014)
-		\item Infested area? a la Hill et al 2001 / accumulation of occupied grid squares a la Mineur et al 2010
-	\end{enumerate}
+
+%%%
+\section{Discussion}\label{sec:discussion}
+%%%
 
 
 
 
 
-%%%%%%%%%%%%%%%%%%%%%
-%		 	BIBLIO		     	%
-%%%%%%%%%%%%%%%%%%%%%
+%%%%%
+%	BIBLIO
+%%%%%
 \def\bibcommenthead{}%
 \bibliographystyle{sn-mathphys-num}
 \bibliography{references}
 
-\end{document} 
-\typeout{get arXiv to do 4 passes: Label(s) may have changed. Rerun}
+\appendix
+
+\end{document}

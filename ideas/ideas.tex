@@ -1,0 +1,234 @@
+\documentclass[9pt, reqno]{amsart}
+
+\usepackage[a4paper,twoside,left=30mm,right=30mm,top=40mm,bottom=35mm]{geometry}
+\usepackage{amsmath}                
+\usepackage{amsthm}                
+\usepackage{amssymb}
+\usepackage[foot]{amsaddr}
+\usepackage{dcolumn}     
+\usepackage{multirow}                                                                
+\usepackage{graphicx}      
+\usepackage[usenames, dvipsnames,svgnames,table]{xcolor}
+\usepackage[small]{caption}  
+\usepackage{tcolorbox}
+\usepackage{mathrsfs}                                   
+\usepackage{longtable}                                  
+\usepackage{lscape}                                     
+\usepackage{afterpage}                                  
+\usepackage[figuresleft]{rotating}                     
+\usepackage{setspace} 
+\definecolor{myGreen}{HTML}{7d9b76}		
+\definecolor{myBrown}{HTML}{4a3139}		
+\definecolor{myBlack}{HTML}{2B2B2B}			
+\definecolor{myWhite}{HTML}{E5E6E4} 
+\definecolor{myGrey}{HTML}{9B9B9B} 
+\usepackage[hidelinks, colorlinks=True, urlcolor=myGreen, citecolor=myBrown, linkcolor=myBrown]{hyperref}                             
+\usepackage{pdfpages}
+\usepackage{subfiles}
+\usepackage{csquotes}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{physics}
+\usepackage{lipsum}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{arev}
+\usepackage[T1]{fontenc}
+\usepackage{floatrow}
+\usepackage{svg}
+\usepackage{enumitem}
+\usepackage{arydshln}	
+\usepackage{etoolbox} 
+\usepackage{lipsum}
+\usepackage{titlesec}
+\usepackage[title,toc]{appendix}
+\usepackage{abstract}
+\usepackage[numbers]{natbib}
+\usepackage{dashrule}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, decorations.markings, calc, intersections}
+\tikzset{arrowmark/.style={postaction={decorate, decoration={markings, mark=at position #1 with {\arrow{>};}}}},
+    arrowmark/.default={.5}
+} % configures ability to position in front etc...
+
+\renewcommand{\footnotesize}{\fontsize{8pt}{11pt}\selectfont}
+\renewcommand{\abstractnamefont}{\normalfont\footnotesize\bfseries}
+\renewcommand{\abstracttextfont}{\normalfont\footnotesize}
+
+\setlength{\parindent}{0em} 				
+\setlength{\headheight}{15pt}		
+\renewcommand{\arraystretch}{2}
+\numberwithin{equation}{section}								
+\floatsetup[subfigure]{capbesideposition={left, center}}				
+
+\newcommand{\distribution}[3]{\mathrm{#1}(#2,#3)}
+\renewcommand{\(}{\left(}
+\renewcommand{\)}{\right)}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\kmsquared}{\text{km}^2}						
+\newcommand{\hasquaredkm}{\rho\text{ha}/\kmsquared}
+\renewcommand{\abs}[1]{\mathrm{abs}\(#1\)}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{proposition}{Proposition}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[section]
+\theoremstyle{definition}
+\newtheorem*{remark}{Remark}
+
+\newcommand{\boxtitle}[1]{
+	\colorbox{myBrown!50}{%
+		\color{myBlack}
+		\transparent{1} %
+		\enspace \begin{minipage}[c]{\linewidth-5.4\fboxsep}
+			\vspace*{.25em} #1 %
+		\end{minipage}%
+	}
+}
+%
+\newcommand{\boxsubtitle}[1]{
+    \colorbox{myGreen!50}{%
+		\color{myBlack}
+		\transparent{1} %
+		\enspace \begin{minipage}[c]{\linewidth-4.85\fboxsep}
+			\vspace*{.25em} #1 %
+		\end{minipage}%
+	}
+}
+%
+\newcommand{\boxsubsubtitle}[1]{
+		\color{myBlack}
+		\transparent{1} %
+		\begin{minipage}[c]{\linewidth}
+            % \color{myBrown}{\rule{\linewidth}{1pt}} 
+			#1 \\ %
+            % \vspace{-.5em}
+            \color{myBrown}{\rule{\linewidth}{1pt}}
+		\end{minipage}%
+}
+
+\titleformat{\section}{\normalfont\Large\bfseries\boxtitle}{\thesection}{2em}{\raggedright}
+\titlespacing*{\section}{0em}{1em}{1em}
+
+\titleformat{\subsection}{\normalfont\bfseries\boxsubtitle}{\thesubsection}{2em}{\raggedright}
+\titlespacing*{\subsection}{0em}{1em}{1em}
+
+\titleformat{\subsubsection}{\normalfont\itshape\color{myBrown}}{\thesubsubsection}{2em}{}
+\titlespacing*{\subsubsection}{0em}{0em}{.5em}
+
+\makeatletter
+\renewcommand{\@biblabel}[1]{[#1]\hfill}
+\makeatother
+
+\makeatletter
+\patchcmd{\@maketitle}{\normalsize}{\Large}{}{} 
+\makeatother
+
+\makeatletter
+\patchcmd{\@setemails}{E-mail addresses}{Corresponding author}{}{} 
+\makeatother    
+
+\definecolor{draftcol}{HTML}{FF0000}
+\newcommand{\draft}[1]{\textcolor{draftcol}{#1}}
+
+\newcommand\pmeq{\stackrel{\mathclap{\mbox{$\pm$}}}{=}}
+
+
+\begin{document}
+%%%%%
+%	TITLE
+%%%%%
+\title{Determining the expansion rate of an invasive tree pest}
+
+\author[JP McKeown]{Jamie P McKeown\textsuperscript{1}}
+\address[A1]{School of Mathematics, Statistics, and Physics, Newcastle University, Newcastle upon Tyne, UK.}
+\email[A1]{j.p.mckeown2@ncl.ac.uk}
+
+\date{\today}
+\maketitle 
+
+\begin{abstract}
+ \centering \bigskip
+  \begin{minipage}{\dimexpr\paperwidth-10cm}
+ 	\draft{\lipsum[1]}  \\
+	
+ 	\bigskip
+ 	\noindent\textbf{Keywords:} \draft{Key words}\\
+	
+ 	\bigskip
+ 	\noindent\textbf{MSC Classification:} \draft{Classification} \\	
+ \end{minipage} 
+ \end{abstract} 
+
+
+
+
+%%%%%
+%	CONTENT
+%%%%%
+\section*{Some ideas}
+
+	\subsection*{Misc notes} 
+	We can consider the following:
+                \begin{itemize}
+                    \item Two models: M1 constant-coefficient model. 
+                    \item Inference for "both" models - summarise paper 1 results for homogeneous model. / or maybe just pick some parameters and leave inference for follow up paper?
+		              \begin{itemize}
+		                  \item Compare models using the DIC 
+		              \end{itemize}
+		              \begin{itemize}
+		                  \item Posterior predictives for both? Using half the number of test sites (4 each - 2023, 2019, 2015, 2010)
+		              \end{itemize}
+                    \item Approaches for calculating the speed of propagation:
+                        \begin{enumerate}
+                            \item Convex hull decomposition and geodesic distance (heat method): using supremum/maximum of distance to hull vertices.
+                            \item Tanh fit and midpoint trajectory: again, using maximum 
+                            % \item Also compare average distance to get speed.
+                            \item 8-point compass of speeds: using maximum along given directions (for convex hull, use $\frac{\pi}{8}$ radian arcs, for tanh fit, use the specific cross sections $(y=0)^+, (y=0)^-, (x=0)^+, (x=0)^-, (y=x)^+, (y=x)^-, (y=-x)^+, (y=-x)^-$ )
+                            \item For each of these two approaches, we will measure distance from two sources: a single point source (the centre of the initial state) and from the (edge of the) initial territory we obtain from our circle fit. For CH/GD, this defines a (generalized) Dirac function that's fed directly into the heat method. For tanh fit, single point - measure distance from that point; initial state - measure distance from centre and subtract radius of circle.
+                        \end{enumerate}
+                \end{itemize}
+	
+	
+
+	\subsection*{Methods for determing the position of the front}
+	\begin{enumerate}
+		\item Convex hull. 	
+		\item Tanh fit along one-dimensional cross sections
+		\item Circle fit (a la Suprunenko)
+
+	\end{enumerate}
+
+	\subsection*{Methods for determing rate of expansion/propagation}
+	\begin{enumerate}
+		\item Geodesic distances via the heat method  / linear rate of spread a la Mineur et al 2010
+		\item Measuring distance traversed by midpoint of the tanh fit? / linear rate of spread a la mineur et al 2010
+		\item Maximum distance method (and potentially others quoted in Suprunenko et al 2021 / Preuss et al 2014
+		\item 95th gamma quantile (Preuss et al 2014)
+		\item Infested area? a la Hill et al 2001 / accumulation of occupied grid squares a la Mineur et al 2010
+	\end{enumerate}
+
+	Preuss \textit{et al} reviewed seven methods previously used to calculate expansion rates of species with grid-based occupancy data \cite{preuss_evaluating_2014}. These methods used a linear regression, plotting area or distance methods of range shift/size against time and determining the expansion rate from the slope of regression. Specifically, for determining distances/areas prior to regression, these seven methods are:
+	\begin{enumerate}
+		\item \textbf{Grid occupancy} (Hill et al. 2001 - butterflies): this uses the number of occupied grid cells (the square root of the occupied area). As stated by Preuss et al, "It is important to note that the grid occupancy model assumes dispersal according to a simple diffusion model (Van den Bosch et al. 1990; Lensink 1997)"
+		\item \textbf{Mean distance} (Hassall and Thompson 2010 - dragonflies): the mean distance from the initial record to all occupied grid cells of an observation year is calculated.
+		\item \textbf{Median distance} (Hassall and Thompson 2010 - dragonflies): uses annual median distance from initial record.
+		\item \textbf{Gamma quantile} (Hassal and Thompson 2010 - dragonflies): fits a gamma distribution to "annual distance data between occupied grid cells and the first location record" - well suited to positive continuous range expansion.
+		\item \textbf{Marginal Mean} (Poyry et al 2009 - butterflies, Hassal and Thompson 2010): uses the mean of the ten outermost occupied grid cells in a given year to describe location of range margin 
+		\item \textbf{Maximum distance} (Hassall and Thompson 2010 - dragonflies, later Suprunenko et al 2021 - OPM): maximum distance from initial record to most distance occupied grid cell in a year.
+		\item \textbf{Conditional maximum} (Mineur et al 2010 - marine macrophytes): same principle as maximum, but if a given years distance is lower than the previous year, the previous year is retained as the maximum. 
+	\end{enumerate} 
+
+	In all cases except the grid occupancy model (an area-based method), the rate of range expansion is the slope of the regression (Preuss et al 2010, Ward 2005). For grid occupancy, the marginal velocity of range expansion is calculated by dividing the slope of the regression by the square root of pi (Lensink 1997; Hill et al. 2001). \\
+
+	Preuss et al used state "Because expansion rates may not be linear over time (Shigesada and Kawasaki 1997), for each of the seven range-expansion models we compared three different model forms relative to year since detection (t): (1) a simple linear model described by an intercept and slope $[a + b * t]$; (2) a cyrtoid functional response model $[a + t/b * t]$; and (3) an exponential growth model $[a * e^{bt}]$. We used the ‘nls’ function in R (R Development Core Team 2011) to fit models and compare model sets using AICc (Burnham and Anderson 2002). Depending on which model received the most support, we then used 20000 iterations of a Gibb’s MCMC sampler (JAGS; Plummer 2003) to generate the 95\% confidence (credible) intervals around the range expansion estimates. We used this approach for two reasons; first, it allowed us to generate an estimate of the range expansion rate (with CIs) for nonlinear functions by sampling from the posterior distribution of the derivative (i.e., slope) of the function. Second, it allowed us to compare range expansion estimates between models (e.g., median versus gamma) and directly calculate the probability that the estimates differed from each other." - here, $t$ is 'year since detection'; confused what this could mean. Might be transformation of time to account for nonlinear expansion rate, or could be model to produce distances? No these are the regressions - how they work out the rate from the distances. \\
+
+	Preuss et al applied the above to Roesel’s bush-cricket. Suprunenko et al chose only the maximum distance method, based only on Preuss' analysis, using linear regression; Suprunenko reports a single estimate, but does not consider directional estimates of the expansion rate. Suprunenko et al also considers two individual populations of OPM in the early years, while we would consider a single population from the start.
+
+\end{document} 
+\typeout{get arXiv to do 4 passes: Label(s) may have changed. Rerun}
